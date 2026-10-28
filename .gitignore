@@ -1,0 +1,15 @@
+# Cadence Virtuoso lock / scratch files
+*.cdslck
+*.cdslck.*
+*.oa-
+*.oa.cdslck*
+*.cdslck*
+*~
+.cadence/
+*.log
+*.swp
+.DS_Store
+# simulation output (regenerate with ADE / Spectre)
+simulation/
+psf/
+*.raw

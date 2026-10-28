@@ -1,0 +1,7 @@
+# Copy to your Virtuoso working directory as cds.lib and edit paths.
+# gpdk090 must be installed separately (not included in this repo).
+SOFTINCLUDE $CDS_INST_DIR/share/cdssetup/cds.lib   ;# optional, site-specific
+DEFINE VLSI_Proj  ./VLSI_Proj
+DEFINE gpdk090    /path/to/gpdk090/gpdk090           ;# <-- edit
+DEFINE analogLib  $CDS_INST_DIR/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE basic      $CDS_INST_DIR/tools/dfII/etc/cdslib/basic

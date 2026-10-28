@@ -1,0 +1,8 @@
+# OpenAccess database files are binary
+*.oa binary
+*.dm binary
+*.tag text
+*.pptx binary
+*.pdf binary
+*.png binary
+*.jpg binary
